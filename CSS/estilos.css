@@ -1,0 +1,34 @@
+/* Estilos para la página web */
+body {
+    background-color: #df0000;
+    font-size: 16px;
+}
+
+/* Utiliza el selector h1 para aplicar estilos al encabezado de la página, como el tamaño de fuente y el color del texto.
+    h1 {  
+    font-size: 36px;  
+    color: #333;
+    }
+    Utiliza el selector p para aplicar estilos al contenido de la página, como el tamaño de fuente y el color del texto a elección.*/
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.parrafo {
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+#fondo {
+    background-color: #3baa60;
+    /* modificar el color a elección */
+}
+p a {  
+    color: #0099ff;  
+    text-decoration: none;
+    }
+    

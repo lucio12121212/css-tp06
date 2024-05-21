@@ -1,11 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-</head>
-<body>
+    <title>CSS</title>
     
+
+</head>
+
+<body>
+    <header>
+        <h1 style="color: lightgreen;">TP Nº6 - CSS</h1>
+    </header>
+    <main>
+        <h3>1.1- ¿Qué significa CSS?</h3>
+        <p>1.1- el css significa hojas de estilo en cascada</p>
+        <h3>1.2- ¿Para qué sirve el CSS? ¿Qué programa se utiliza para interpretar el CSS? (es para 🧠)</h3>
+        <p> es el codigo que se utiliza para dar estilo a tu pagina web y cambiar el aspecto visual de la pagina.</p>
+        <h3>1.3- ¿A qué se llama regla de CSS?</h3>
+        <p>Las Reglas Condicionales es un módulo de CSS que permite definir un conjunto de reglas que solo aplicarán con
+            base en las capacidades del procesador o del documento al cual la hoja de estilos está siendo aplicada.</p>
+        <h3>1.4- ¿Cuál es la anatomía de la regla de CSS? Agregar imagen explicativa y utilizando una lista descriptiva
+            explicar sus elementos.</h3>
+        <img src="./anatomiadecss.png" alt="anatomia" width="250">
+        <dl>
+            <dt>selector</dt>
+            <dd>selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos <p> ). Para dar estilo a un
+                    elemento diferente, solo cambia el selector.</dd>
+            <dt>Declaración</dt>
+            <dd>aplica las propiedades que querés dar al elemento seleccionado en el Selector. En este caso hay una sola
+                regla, pero puede haber más.</dd>
+            <dt>Propiedades</dt>
+            <dd>es lo que te permite dar un estilo a un elemento HTML. En el ejemplo la propiedad es color que le dará
+                color a las letras de los párrafos. Siempre las propiedades se ubicarán a la izquierda.</dd>
+            <dt>Valor de la propiedad</dt>
+            <dd> las propiedades deben tener un valor. Cada propiedad tiene valores definidos. Cada valor se ubicará a
+                la derecha.</dd>
+        </dl>
+        <h3>1.5- ¿Qué es un selector en CSS?</h3>
+        <p>El CSS tendrá diferentes tipos de selectores, un selector nos permitirá aplicar estilos a elementos
+            específicos de HTML. De esta forma es posible ser preciso al momento de aplicar diseño a un sitio web.
+            Ya sabemos que en un documento HTML podemos contener muchas etiquetas iguales pero con contenido distinto.
+        </p>
+        <h3>1.6- Identificar y definir los selectores: de ID, de clases, universal, de etiquetas, descendente.</h3>
+        <dl>
+            <dt> selector de ID</dt>
+            <dd>Este tipo de selector es igual al de clase, aunque lo aplicaremos a un único elemento HTML de nuestra
+                página. Esto se debe a que el atributo ID de HTML identifica a un elemento HTML por medio de un nombre.
+                Por ejemplo:
+                <img src="./css.png" alt="imagen">
+            </dd>
+            <dt>selector de clases</dt>
+            <dd>Los selectores de clases comienzan siempre por un . (punto). Los clientes web (navegadores) identifican
+                este punto y lo distinguen del resto de los selectores.<br>
+
+                Por ejemplo:
+                <img src="./csss.png" alt="messi">
+            </dd>
+            <dt>selector universal</dt>
+            <dd>Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica mediante el *.
+                <img src="./selectores.png" alt="universal">
+            </dd>
+            <dt>selector de etiquetas</dt>
+            <dd>Aplicamos propiedades CSS a una etiqueta. La misma se identifica sin utilizar simbolo mayor ni el menor.
+                Por ejemplo.
+                <img src="./selectores1.png" alt="etiqueta">
+            </dd>
+            <dt>selector descendente</dt>
+            <dd>Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. Estos seectores
+                siempre están formados por dos o más selectores separados entre si. El último selector será el elemento
+                HTML al que se le aplicará las propiedades de CSS.<br>
+
+                Por ejemplo:
+                <img src="./selectores2.png" alt="descendente">
+            </dd>
+        </dl>
+        <h3>1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS? </h3>
+        <ol>
+            <li>el navegador carga el html</li>
+            <li>el html es convertido en un "DOM", el DOM es el que almacena el documento en la memoria del documento
+            </li>
+            <li>lo que hace el navegador es buscar todo lo que esta vinculado con el documento, como por ejemplo las
+                imagenes o videos que se encuentran en el documento.</li>
+            <li>cuando el navegador analiza el css, lo que hace es es ordenar en cubos las reglas dependiendo el tipo de
+                selector, segun el tipo de selector, se aplican las reglas y los nodos a los DOM. </li>
+            <li>luego de aplicarse las reglas el arbol de renderizacion genera la estructura, donde posteriormente
+                apareceran los nodos </li>
+            <li>aca esta la demostracion del aspecto visual de la pagina:
+                <img src="https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/How_CSS_works/rendering.svg"
+                    alt="aspecto visual" width="300">
+            </li>
+        </ol>
+        <h3>1.8- ¿Cuáles son las tres formas para vincular CSS con HTML?</h3>
+        <p>inline<br>
+            style<br>
+            link</p>
+        <h3> Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los
+            siguientes pasos:
+            Hacer clic en View All Designs
+            Elegir dos diseños y abrirlo en pestañas distintas
+            En el primer diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+        </h3>
+        <a href="https://csszengarden.com/220/">css zen garments</a>
+        <a href="https://csszengarden.com/218/">css zen gardents</a>
+        <p>tienen la misma estructura, solo cambia el css, es decir que pueden tener distintos diseños</p>
+        <table>
+            <tr>
+               <th>propiedad</th>
+               <th>descripcion</th>
+               <th>valores posibles</th>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>define el color de texto</td>
+                <td>color:GREEN, BLUE, BROWN</td>
+            </tr>
+            <tr>
+                <td>background-color </td>
+                <td>Define el color de fondo de un elemento</td>
+                <td>background-color: RED, BLUE, GREEN</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>define el tamaño de la fuente del texto</td>
+                <td>small, medium, large</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>Define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal)</td>
+                <td>bold, bolder, lighter</td>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td>Define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal)</td>
+                <td>oblique, initial, normal</td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>Define el tipo de letra a utilizar para el texto.</td>
+                <td>courier new, courier, mono space</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+                <td>start, end, center</td>
+            </tr>
+            <tr>
+                <td>text-deration</td>
+                <td>Define la decoración del texto (por ejemplo, si está subrayado o tachado).</td>
+                <td>current, solid, none</td>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>Define la transformación del texto (por ejemplo, en mayúsculas o minúsculas)</td>
+                <td>uppercase, lowercase, full width</td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>Define el espacio entre letras.</td>
+                <td>3px, 0,3px, inherit</td>
+            </tr>
+            <tr></tr>
+        </table>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
