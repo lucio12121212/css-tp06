@@ -1,0 +1,66 @@
+/*archivo de estilo*/
+body{
+    background-color:greenyellow;
+    color: #445566;
+    text-align: center  ;
+    margin: 0; /*elimina el margen natural del elemento*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*font family cambia el tipo de fuente*/
+}
+header{
+    background-color: #334434;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+h1{
+    font-size: 2.5em;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+/*MAIN*/
+main{
+    padding: 20px;
+}
+section{
+    background-color: beige;
+    border: 2px solid #005512;
+   margin: 3px 2px;/*top-bottom  left-right*/
+   text-align: left;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    margin: 10px;
+}
+main section h2{
+margin: 10px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+}
+footer ul{
+    margin: 0;
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+}
+.iconos{
+    width: 25px;
+    margin-left: 5px;
+}

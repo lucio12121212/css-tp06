@@ -1,0 +1,52 @@
+header{
+   text-align: center;
+
+}
+header h1{
+    color: black;
+}
+body{
+    background-color: #5c5c5c
+}
+section{
+    border: 3px solid ;
+    text-align: center;
+    background-color: #f6f6f6;
+    margin-bottom: 45px;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+header ul{
+    list-style: none;
+    
+}
+header ul li{
+    display: inline-block;
+
+}
+header ul li a{
+    color: rgb(0, 0, 0);
+}
+footer{
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    border: 3px none;
+    margin: 0.5px;
+    padding: 10px;
+}
+footer h2{
+    color: black;
+}
+.p{
+    font-size: 70px;
+    color: coral;
+    margin: 0;
+}
+.select{
+    background-color: black;
+    color: rgb(255, 153, 0) ;
+    font-size: 30px;
+}
